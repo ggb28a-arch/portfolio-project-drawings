@@ -237,7 +237,7 @@ span{
 }
 }
 
-@media(max-width: 100px){
+@media(max-width: 1000px){
   .home{
     gap: 4rem;
   }
@@ -294,4 +294,90 @@ span{
     grid-template-columns: 1fr;
     gap: 5rem;
   }
+}
+
+/* Skills Section */
+
+.skills {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.skills h1 {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  width: 280px;
+  padding: 3rem 2rem;
+  border: 2px solid #b74b4b;
+  border-radius: 2rem;
+  background-color: #111;
+  transition: 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px #b74b4b;
+}
+
+.skill-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #b74b4b;
+}
+
+.skill-card p {
+  font-size: 1.7rem;
+  margin: 1rem 0;
+}
+
+
+/* Resume Section */
+
+.resume {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.resume h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.resume p {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.resume-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.resume-buttons a {
+  display: inline-block;
+  padding: 1.2rem 2.5rem;
+  border: 2px solid #b74b4b;
+  border-radius: 3rem;
+  color: #b74b4b;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.resume-buttons a:hover {
+  background-color: #b74b4b;
+  color: black;
+  box-shadow: 0 0 25px #b74b4b;
+  transform: translateY(-3px);
 }
